@@ -23,7 +23,7 @@ public class ExperienceInfo {
         this.jobTitle = jobTitle;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.jobDesc1 = new ArrayList<>();
+        this.jobDesc1 = jobDesc1;
 
     }
 //    public ExperienceInfo(String companyName, String jobTitle,

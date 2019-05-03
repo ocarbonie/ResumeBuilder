@@ -64,13 +64,17 @@ public class Main {
             String jobDesc = input.nextLine();
             jobDescription.add(jobDesc);
 
+            System.out.println("Please enter another job description for this position or press q: ");
+            String moreDesc = input.nextLine();
 
-            String moreDesc = "a";
+
             while (!moreDesc.equalsIgnoreCase("q")) {
+                jobDescription.add(moreDesc);
                 System.out.println("Please enter another job description for this position or press q: ");
-                moreDesc = input.nextLine();
+
                 if (!oneMore.equalsIgnoreCase("q")) {
-                    jobDescription.add(moreDesc);
+                    moreDesc = input.nextLine();
+
                 }
 
             }
