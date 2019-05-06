@@ -81,10 +81,12 @@ public class Main {
             person1.addExpericence(new ExperienceInfo(companyName, jobTitle, dateStart, dateEnd, jobDescription));
             System.out.println("\nWould you like to enter another experience?(y/n) ");
             oneMore = input.nextLine();
+            jobDescription = new ArrayList<>();
         }
 
 
                 //Skills Information
+        System.out.println("\n\nPlease enter 3 skills");
                 oneMore = "Y";
                 System.out.println("\nSkills");
                 while (oneMore.equalsIgnoreCase("Y")) {
